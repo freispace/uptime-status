@@ -1,7 +1,7 @@
 url: https://api.sendinblue.com/v3/smtp/templates?limit=50&offset=0&sort=desc
 status: up
 code: 200
-responseTime: 332
-lastUpdated: 2022-07-22T16:26:47.657Z
+responseTime: 552
+lastUpdated: 2022-07-22T16:40:42.750Z
 startTime: Fri Jul 22 2022 16:09:47 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
