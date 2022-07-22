@@ -1,12 +1,14 @@
 # Change these first
 owner: freispace # Your GitHub organization or username, where this repository lives
 repo: uptime-status # The name of this repository
-user-agent: freispace-status
+user-agent: freispace
+
+robotsText: "User-agent: * \n Disallow: /"
 
 sites:
   - name: "Website"
-    url: https://freispace.com
-  - name: "Applikation"
+    url: https://freispace.com/de/
+  - name: "Web app"
     url: https://app.freispace.com
   - name: "E-Mail Server"
     url: https://api.sendinblue.com/v3/smtp/templates?limit=50&offset=0&sort=desc
@@ -17,6 +19,8 @@ sites:
 status-website:
   cname: status.freispace.com
   logoUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
+  favicon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.png
+  faviconSvg: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
   name: "freispace Status"
   introTitle: 
   introMessage: 
@@ -25,3 +29,6 @@ status-website:
       href: /
     - title: Website
       href: https://freispace.com
+  metaTags:
+    - name: "robots"
+      content: "noindex,nofollow,noodp"
