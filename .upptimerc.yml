@@ -1,20 +1,17 @@
-# Change these first
-owner: freispace # Your GitHub organization or username, where this repository lives
-repo: uptime-status # The name of this repository
+owner: freispace
+repo: uptime-status
 user-agent: freispace
-
-robotsText: "User-agent: * \n Disallow: /"
 
 sites:
   - name: "Website"
     url: https://freispace.com/de/
   - name: "Web app"
     url: https://app.freispace.com
-  - name: "E-Mail Server"
-    url: https://api.sendinblue.com/v3/smtp/templates?limit=50&offset=0&sort=desc
+  - name: "E-mail service"
+    url: $EMAIL_SERVICE_URL
     headers:
       - "Accept: application/json"
-      - "api-key: $SENDINBLUE_API"
+      - "api-key: $EMAIL_SERVICE_API_KEY"
 
 status-website:
   cname: status.freispace.com
@@ -32,3 +29,4 @@ status-website:
   metaTags:
     - name: "robots"
       content: "noindex,nofollow,noodp"
+  robotsText: "User-agent: * \n Disallow: /"
