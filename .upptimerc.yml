@@ -15,9 +15,9 @@ sites:
 
 status-website:
   cname: status.freispace.com
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
   name: "freispace Status"
-  introTitle: "freispace live service status"
+  introTitle: 
   introMessage: 
   navbar:
     - title: Status
