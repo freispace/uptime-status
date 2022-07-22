@@ -12,6 +12,9 @@ sites:
     headers:
       - "Accept: application/json"
       - "api-key: $EMAIL_SERVICE_API_KEY"
+  - name: "SMTP server"
+    url: $EMAIL_SMTP_SERVER
+    port: 587
 
 status-website:
   cname: status.freispace.com
@@ -27,6 +30,8 @@ status-website:
     - title: Website
       href: https://freispace.com
   metaTags:
+    - name: "color-scheme"
+      content: "dark light"
     - name: "robots"
       content: "noindex,nofollow,noodp"
   robotsText: "User-agent: * \n Disallow: /"
