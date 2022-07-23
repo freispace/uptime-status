@@ -5,16 +5,60 @@ user-agent: freispace
 sites:
   - name: "Website"
     url: https://freispace.com/de/
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
+    
   - name: "Web app"
     url: https://app.freispace.com
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
+    
+  - name: "Staging app"
+    url: $STATUS_APP_URL_PWA
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/bug.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
+  - name: "Staging API"
+    url: $STATUS_APP_URL_API
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/api.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
+  - name: "Staging database"
+    url: $STATUS_APP_URL_DB
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/db.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
+  - name: "Staging cache server"
+    url: $STATUS_APP_URL_CACHE
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/cache.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
+  - name: "Staging storage server"
+    url: $STATUS_APP_URL_S3
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/storage.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
+  - name: "Realtime communication"
+    url: $STATUS_APP_URL_SSE
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/sse.svg
+    headers:
+      - "Accept: application/json"
+      - "$STATUS_APP_HEADER"
+      
   - name: "E-mail service"
     url: $EMAIL_SERVICE_URL
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/email.svg
     headers:
       - "Accept: application/json"
       - "api-key: $EMAIL_SERVICE_API_KEY"
-  - name: "SMTP server"
-    url: $EMAIL_SMTP_SERVER
-    port: 587
 
 status-website:
   cname: status.freispace.com
@@ -30,8 +74,6 @@ status-website:
     - title: Website
       href: https://freispace.com
   metaTags:
-    - name: "color-scheme"
-      content: "dark light"
     - name: "robots"
       content: "noindex,nofollow,noodp"
   robotsText: "User-agent: * \n Disallow: /"
