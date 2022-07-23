@@ -112,18 +112,20 @@
     "url": "$STATUS_APP_URL_S3",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/storage.svg",
     "slug": "staging-storage-server",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 251,
-    "timeDay": 251,
-    "timeWeek": 251,
-    "timeMonth": 251,
-    "timeYear": 251,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "98.57%",
+    "uptimeDay": "98.57%",
+    "uptimeWeek": "98.57%",
+    "uptimeMonth": "98.57%",
+    "uptimeYear": "98.57%",
+    "time": 1740,
+    "timeDay": 1740,
+    "timeWeek": 1740,
+    "timeMonth": 1740,
+    "timeYear": 1740,
+    "dailyMinutesDown": {
+      "2022-07-23": 0
+    }
   },
   {
     "name": "Realtime communication",
