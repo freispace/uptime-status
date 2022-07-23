@@ -7,11 +7,11 @@ sites:
     url: https://freispace.com/de/
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
     
-  - name: "Web app"
+  - name: "Application"
     url: https://app.freispace.com
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
     
-  - name: "Staging app"
+  - name: "Staging application"
     url: $STATUS_APP_URL_PWA
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/bug.svg
     headers:
@@ -65,14 +65,10 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/freispace-logo.svg
   favicon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.png
   faviconSvg: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
+  themeUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/theme.css
   name: "Service status"
   introTitle: "**freispace** service status"
   introMessage: 
-  navbar:
-    - title: Status
-      href: /
-    - title: Website
-      href: https://freispace.com
   metaTags:
     - name: "robots"
       content: "noindex,nofollow,noodp"
