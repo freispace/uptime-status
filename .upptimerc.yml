@@ -62,11 +62,11 @@ sites:
 
 status-website:
   cname: status.freispace.com
-  logoUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
+  logoUrl: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/freispace-logo.svg
   favicon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.png
   faviconSvg: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
-  name: "freispace Status"
-  introTitle: 
+  name: "Service status"
+  introTitle: "**freispace** service status"
   introMessage: 
   navbar:
     - title: Status
@@ -78,6 +78,5 @@ status-website:
       content: "noindex,nofollow,noodp"
   robotsText: "User-agent: * \n Disallow: /"
   
-  
-  i18n:
-    footer: "[Privacy Policy](https://freispace.com/de/datenschutz/) | [Terms](https://freispace.com/de/agb/) | [Legal](https://freispace.com/de/impressum/) | [Contact](https://freispace.com/de/kontakt/)"
+i18n:
+  footer: "[Privacy Policy](https://freispace.com/de/datenschutz/) | [Terms](https://freispace.com/de/agb/) | [Legal](https://freispace.com/de/impressum/) | [Contact](https://freispace.com/de/kontakt/)"
