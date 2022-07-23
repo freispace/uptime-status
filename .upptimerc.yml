@@ -77,3 +77,7 @@ status-website:
     - name: "robots"
       content: "noindex,nofollow,noodp"
   robotsText: "User-agent: * \n Disallow: /"
+  
+  
+  i18n:
+    footer: "[Privacy Policy](https://freispace.com/de/datenschutz/) | [Terms](https://freispace.com/de/agb/) | [Legal](https://freispace.com/de/impressum/) | [Contact](https://freispace.com/de/kontakt/)"
