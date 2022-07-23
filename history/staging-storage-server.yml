@@ -1,7 +1,7 @@
 url: $STATUS_APP_URL_S3
-status: down
-code: 503
-responseTime: 3280
-lastUpdated: 2022-07-23T07:51:51.634Z
+status: up
+code: 200
+responseTime: 180
+lastUpdated: 2022-07-23T07:56:25.583Z
 startTime: Sat Jul 23 2022 07:28:05 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
