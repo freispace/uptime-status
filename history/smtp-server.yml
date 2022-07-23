@@ -1,7 +1,0 @@
-url: $EMAIL_SMTP_SERVER
-status: down
-code: 401
-responseTime: 323
-lastUpdated: 2022-07-22T23:15:10.154Z
-startTime: Fri Jul 22 2022 19:17:32 GMT+0000 (Coordinated Universal Time)
-generator: Upptime <https://github.com/upptime/upptime>
