@@ -1,7 +1,7 @@
 url: $STATUS_APP_URL_SSE
 status: down
-code: 503
-responseTime: 205
-lastUpdated: 2022-07-25T21:56:59.590Z
+code: 0
+responseTime: 0
+lastUpdated: 2022-07-25T23:14:51.103Z
 startTime: Sat Jul 23 2022 07:28:06 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
