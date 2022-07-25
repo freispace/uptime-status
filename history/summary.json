@@ -40,90 +40,99 @@
     "url": "$STATUS_APP_URL_PWA",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/bug.svg",
     "slug": "staging-application",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 622,
     "timeDay": 631,
     "timeWeek": 622,
     "timeMonth": 622,
     "timeYear": 622,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-25": 0
+    }
   },
   {
     "name": "Staging API",
     "url": "$STATUS_APP_URL_API",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/api.svg",
     "slug": "staging-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 214,
     "timeDay": 187,
     "timeWeek": 214,
     "timeMonth": 214,
     "timeYear": 214,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-25": 0
+    }
   },
   {
     "name": "Staging database",
     "url": "$STATUS_APP_URL_DB",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/db.svg",
     "slug": "staging-database",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.97%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 165,
     "timeDay": 161,
     "timeWeek": 165,
     "timeMonth": 165,
     "timeYear": 165,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-25": 0
+    }
   },
   {
     "name": "Staging cache server",
     "url": "$STATUS_APP_URL_CACHE",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/cache.svg",
     "slug": "staging-cache-server",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 162,
     "timeDay": 156,
     "timeWeek": 162,
     "timeMonth": 162,
     "timeYear": 162,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-25": 0
+    }
   },
   {
     "name": "Staging storage server",
     "url": "$STATUS_APP_URL_S3",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/storage.svg",
     "slug": "staging-storage-server",
-    "status": "up",
-    "uptime": "45.66%",
-    "uptimeDay": "60.22%",
-    "uptimeWeek": "45.66%",
-    "uptimeMonth": "45.66%",
-    "uptimeYear": "45.66%",
+    "status": "down",
+    "uptime": "61.26%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "61.26%",
+    "uptimeMonth": "61.26%",
+    "uptimeYear": "61.26%",
     "time": 1640,
-    "timeDay": 209,
+    "timeDay": 223,
     "timeWeek": 1640,
     "timeMonth": 1640,
     "timeYear": 1640,
     "dailyMinutesDown": {
+      "2022-07-25": 0,
       "2022-07-24": 638,
       "2022-07-23": 719
     }
@@ -133,9 +142,9 @@
     "url": "$STATUS_APP_URL_SSE",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/sse.svg",
     "slug": "realtime-communication",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -144,7 +153,9 @@
     "timeWeek": 218,
     "timeMonth": 218,
     "timeYear": 218,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-07-25": 0
+    }
   },
   {
     "name": "E-mail service",
