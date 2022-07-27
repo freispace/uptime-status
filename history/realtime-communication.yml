@@ -1,7 +1,7 @@
 url: $STATUS_APP_URL_SSE
-status: up
-code: 200
-responseTime: 122
-lastUpdated: 2022-07-26T23:14:23.035Z
+status: down
+code: 404
+responseTime: 123
+lastUpdated: 2022-07-27T21:56:23.189Z
 startTime: Sat Jul 23 2022 07:28:06 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
