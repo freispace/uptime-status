@@ -1,7 +1,7 @@
 url: $STATUS_APP_URL_CACHE
-status: up
-code: 200
-responseTime: 134
-lastUpdated: 2022-07-27T23:14:57.714Z
+status: down
+code: 404
+responseTime: 122
+lastUpdated: 2022-07-28T01:59:59.121Z
 startTime: Sat Jul 23 2022 07:28:04 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
