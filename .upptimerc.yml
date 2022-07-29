@@ -68,6 +68,9 @@ status-website:
   name: "Service status"
   introTitle: "**freispace** service status"
   introMessage: 
+  links:
+    - rel: stylesheet
+      href: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/freispace.css
   metaTags:
     - name: "robots"
       content: "noindex,nofollow,noodp"
