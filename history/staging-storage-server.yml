@@ -1,7 +1,7 @@
 url: $STATUS_APP_URL_S3
 status: down
 code: 404
-responseTime: 160
-lastUpdated: 2022-07-28T23:17:10.778Z
+responseTime: 90
+lastUpdated: 2022-07-29T10:10:43.189Z
 startTime: Sat Jul 23 2022 07:28:05 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
