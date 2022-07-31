@@ -8,38 +8,34 @@ sites:
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
     
   - name: "Application"
-    url: https://app.freispace.com
-    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
-    
-  - name: "Staging application"
     url: $STATUS_APP_URL_PWA
-    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/bug.svg
+    icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/favicon.svg
     headers:
       - "Accept: application/json"
       - "$STATUS_APP_HEADER"
       
-  - name: "Staging API"
+  - name: "API"
     url: $STATUS_APP_URL_API
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/api.svg
     headers:
       - "Accept: application/json"
       - "$STATUS_APP_HEADER"
       
-  - name: "Staging database"
+  - name: "Database"
     url: $STATUS_APP_URL_DB
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/db.svg
     headers:
       - "Accept: application/json"
       - "$STATUS_APP_HEADER"
       
-  - name: "Staging cache server"
+  - name: "Cache"
     url: $STATUS_APP_URL_CACHE
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/cache.svg
     headers:
       - "Accept: application/json"
       - "$STATUS_APP_HEADER"
       
-  - name: "Staging storage server"
+  - name: "Storage"
     url: $STATUS_APP_URL_S3
     icon: https://raw.githubusercontent.com/freispace/uptime-status/master/assets/storage.svg
     headers:
