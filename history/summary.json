@@ -120,7 +120,7 @@
     "uptimeYear": "100.00%",
     "time": 196,
     "timeDay": 280,
-    "timeWeek": 215,
+    "timeWeek": 223,
     "timeMonth": 196,
     "timeYear": 196,
     "dailyMinutesDown": {}
@@ -130,7 +130,7 @@
     "url": "$EMAIL_SERVICE_URL",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/email.svg",
     "slug": "e-mail-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -141,6 +141,8 @@
     "timeWeek": 312,
     "timeMonth": 298,
     "timeYear": 298,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-08-04": 0
+    }
   }
 ]
