@@ -1,7 +1,7 @@
 url: $EMAIL_SERVICE_URL
 status: up
 code: 200
-responseTime: 277
-lastUpdated: 2022-08-14T23:06:29.817Z
+responseTime: 241
+lastUpdated: 2022-08-15T23:07:21.610Z
 startTime: Sun Jul 31 2022 13:19:06 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
