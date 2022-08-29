@@ -1,5 +1,6 @@
 .logo img {
-  max-height: 2.5rem; 
+  max-height: 2.5rem;
+  border-radius: 0 !important;
 }
 
 @media (max-width: 500px) {
