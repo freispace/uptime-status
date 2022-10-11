@@ -142,9 +142,9 @@
     "url": "$EMAIL_SERVICE_URL",
     "icon": "https://raw.githubusercontent.com/freispace/uptime-status/master/assets/email.svg",
     "slug": "e-mail-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.87%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.87%",
@@ -154,6 +154,7 @@
     "timeMonth": 335,
     "timeYear": 322,
     "dailyMinutesDown": {
+      "2022-10-11": 0,
       "2022-08-13": 81,
       "2022-08-05": 49
     }
