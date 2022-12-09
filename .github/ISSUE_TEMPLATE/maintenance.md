@@ -1,6 +1,6 @@
 ---
 name: Planned feature update & maintenance
-about: Create a report to help us improve
+about: Maintenance window
 title: 'Planned feature update & maintenance'
 labels: 'maintenance'
 assignees: ''
